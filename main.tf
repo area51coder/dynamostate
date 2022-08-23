@@ -1,3 +1,6 @@
+provider "aws" {
+region = "us-east-2"
+}
 terraform {
 backend "s3" {
 # Replace this with your bucket name!
